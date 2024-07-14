@@ -1,0 +1,276 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    
+}
+.first-text{
+    width: 40vw;
+    display: flex;
+}
+
+.text-1{
+    color: #FF3147;
+    font-size: 1.5rem;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+.inner> h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.inner> p{
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-right: 4rem;
+    color: black;
+    margin-bottom: 2rem;
+}
+.first-img{
+    width: auto;
+}
+.first-img> img{
+    width: 30vw;
+    height: 70vh;
+    border-radius: 5px;
+}
+.first-text button{
+    background-color: #FF3147;
+    border: transparent;
+    border-radius: 5px;
+    width: 8rem;
+    height: 3rem;
+}
+.first-text button>a{
+    text-decoration: none;
+    color: white;
+}
+
+.ourhed{
+    text-align: center;
+    color: #FF3147;
+    font-size: 1.5rem;
+    margin-top: 10rem;
+}
+.thrd-h1{
+    text-align: center;
+    margin: 2rem 0;
+    letter-spacing: 2px;
+}
+.sec-2{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.sec-img{
+    width: 50vhw;
+    height: 60vh;
+}
+.sec-img> img{
+    height: 62vh;
+    width: 50vw;
+}
+.sec-cont{
+    width: 30vw;
+}
+.cont-1{
+    width: 25vw;
+    top: 2718px;
+    left: 1175px;
+    /* width: 370px; */
+    height: 10rem;
+    /* UI Properties */
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.cont-1> h3{
+    text-align: center;
+    padding-top: 1rem;
+}
+.cont-1> p{
+    /* text-align: center; */
+    padding: 1rem 2.5rem;
+}
+.box-4{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+.box{
+    width: 15rem;
+}
+.box> h4{
+    padding: 1rem 0;
+}
+.fourth{
+    background-color: #FAFAFA;
+    margin: 2rem 0;
+    height: auto;
+}
+.card-4{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    padding-bottom: 5rem;
+}
+.card{
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 15rem;
+    height: 15rem;
+    padding-top: auto;
+    transition: transform 0.3s ease-in-out;
+    
+}
+.card:hover{
+    box-shadow: 3px 6px 20px #672C2C1F;
+    transform: scale(1.1);
+}
+.card> img{
+    padding-top: 2rem;
+}
+.card> h2{
+    padding: 1rem 0;
+    font: normal normal 300 60px/65px Poppins;
+}
+.hd{
+    padding-top: 2rem;
+}
+.fif-p{
+   width: 38rem;
+   height: 5rem;
+   margin: auto;
+}
+.fif-p> span{
+    color: #FF3147;
+    font-weight: 700;
+}
+.fif-span{
+    color: grey;
+}
+.quots{
+    position: relative;
+    left: 22.5rem;
+}
+footer{
+    background-color: #FF3147;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 18rem;
+}
+footer img{
+    width: 70vw;
+    
+}
+
+.active1{
+    background-color: #FF3147;
+}
+
+
+
+.services {
+    padding: 20px;
+}
+.rd{
+    
+    color: #FF3147;
+    font-size: 1.5rem;
+    width: 70vw;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+.dem-1,.dem-1>h1{
+    width: 15rem;
+    letter-spacing: 1.5px;
+}
+.dem-2{
+    width: 50rem;
+
+}
+
+.dem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5rem 0;
+}
+
+.slider {
+    display: flex;
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+    overflow-x: scroll;
+    gap: 2rem;
+}
+
+.slide {
+    width: 20rem;
+    height: 25rem;
+    transition: transform 0.5s ease;
+    position: relative;
+
+}
+
+.slide img {
+    width: 20rem;
+    height: 25rem;
+}
+.slider::-webkit-scrollbar {
+    display: none;
+}
+
+
+.slider {
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+}
+
+.hover-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slide:hover .hover-content {
+    display: flex;
+}
+
+.dots {
+    
+    margin-top: 10px;
+    padding-left: 10rem;
+    
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    transition: background-color 0.6s ease;
+}
+
+  
+
+
